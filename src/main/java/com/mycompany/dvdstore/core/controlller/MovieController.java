@@ -3,11 +3,11 @@ package com.mycompany.dvdstore.core.controlller;
 import java.util.Scanner;
 
 import com.mycompany.dvdstore.core.entity.Movie;
-import com.mycompany.dvdstore.core.service.MovieService;
+import com.mycompany.dvdstore.core.service.MovieServiceInterface;
 
 public class MovieController {
 	
-	private MovieService movieService = new MovieService();
+	private MovieServiceInterface movieService;
 	
 	public void addUsingConsole() {
 		Scanner sc=new Scanner(System.in);

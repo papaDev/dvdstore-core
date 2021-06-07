@@ -2,10 +2,11 @@ package com.mycompany.dvdstore.core.service;
 
 import com.mycompany.dvdstore.core.entity.Movie;
 import com.mycompany.dvdstore.core.repository.GoLiveMovieRepository;
+import com.mycompany.dvdstore.core.repository.MovieRepositoryInterface;
 
-public class MovieService {
+public class MovieService implements MovieServiceInterface {
 	
-	private GoLiveMovieRepository movieRepository = new GoLiveMovieRepository();
+	private MovieRepositoryInterface movieRepository;
 	
 	public void registerMovie(Movie movie) {
 		movieRepository.add(movie);

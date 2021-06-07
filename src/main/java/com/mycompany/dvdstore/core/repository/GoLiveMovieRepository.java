@@ -2,12 +2,10 @@ package com.mycompany.dvdstore.core.repository;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import com.mycompany.dvdstore.core.entity.Movie;
 
-public class GoLiveMovieRepository {
+public class GoLiveMovieRepository implements MovieRepositoryInterface {
 	
 	public void add(Movie movie) {
 	    FileWriter writer;
