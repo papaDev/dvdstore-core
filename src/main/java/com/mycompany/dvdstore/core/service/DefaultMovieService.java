@@ -1,10 +1,10 @@
 package com.mycompany.dvdstore.core.service;
 
 import com.mycompany.dvdstore.core.entity.Movie;
-import com.mycompany.dvdstore.core.repository.GoLiveMovieRepository;
+import com.mycompany.dvdstore.core.repository.FileMovieRepository;
 import com.mycompany.dvdstore.core.repository.MovieRepositoryInterface;
 
-public class MovieService implements MovieServiceInterface {
+public class DefaultMovieService implements MovieServiceInterface {
 	
 	private MovieRepositoryInterface movieRepository;
 	
