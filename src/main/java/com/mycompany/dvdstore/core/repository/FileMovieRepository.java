@@ -4,10 +4,13 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import org.springframework.beans.factory.annotation.Value;
+
 import com.mycompany.dvdstore.core.entity.Movie;
 
 public class FileMovieRepository implements MovieRepositoryInterface {
 	
+	@Value("${movies.file.location}")
 	private File file;
 
 	public File getFile() {
