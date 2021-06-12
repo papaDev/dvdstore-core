@@ -3,10 +3,12 @@ package com.mycompany.dvdstore.core.controller;
 import java.util.Scanner;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
 import com.mycompany.dvdstore.core.entity.Movie;
 import com.mycompany.dvdstore.core.service.MovieServiceInterface;
 
+@Controller
 public class MovieController {
 	
 	@Autowired
