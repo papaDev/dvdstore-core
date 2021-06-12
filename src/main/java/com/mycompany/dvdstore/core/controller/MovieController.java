@@ -1,4 +1,4 @@
-package com.mycompany.dvdstore.core.controlller;
+package com.mycompany.dvdstore.core.controller;
 
 import java.util.Scanner;
 
