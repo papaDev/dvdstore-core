@@ -10,4 +10,6 @@ public interface MovieRepositoryInterface {
 	
 	List<Movie> list();
 	
+	Movie getById(long id);
+	
 }

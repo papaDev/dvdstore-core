@@ -10,4 +10,6 @@ public interface MovieServiceInterface {
 	
 	List<Movie> getLMovieList();
 	
+	Movie getMovieById(long id);
+	
 }
