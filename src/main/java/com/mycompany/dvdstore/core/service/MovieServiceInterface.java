@@ -6,7 +6,7 @@ import com.mycompany.dvdstore.core.entity.Movie;
 
 public interface MovieServiceInterface {
 
-	void registerMovie(Movie movie);
+	Movie registerMovie(Movie movie);
 	
 	List<Movie> getLMovieList();
 	
